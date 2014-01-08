@@ -1,0 +1,10 @@
+<h1>User Animals</h1>
+
+<p>Owner Name: <%- user.name %></p>
+
+<p>Animals:</p>
+<ul>
+	<% user.animals.forEach(function(animal) { %>
+	<li><%- animal.id %></li>
+	<% }); %>
+</ul>
